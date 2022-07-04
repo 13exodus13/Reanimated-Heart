@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 420, in script
+    %(player_name)s "Hello"
+Exception: Sayer '%(player_name)' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 420, in script
+    %(player_name)s "Hello"
+  File "C:\Users\justi\Downloads\renpy-7.4.11-sdk/renpy/ast.py", line 681, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\justi\Downloads\renpy-7.4.11-sdk/renpy/ast.py", line 574, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer '%(player_name)' is not defined.
+
+Windows-10-10.0.25136
+Ren'Py 7.4.11.2266
+Reanimated Heart 1.0
+Sat Jun 18 18:23:26 2022
